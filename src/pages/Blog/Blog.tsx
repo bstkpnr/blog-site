@@ -1,4 +1,4 @@
-import React, { FC, PropsWithChildren } from 'react';
+import  { FC, PropsWithChildren } from 'react';
 import ToText from '../../utils/ToText'
 import '../Blog/blog.css'
 interface ProfileData {

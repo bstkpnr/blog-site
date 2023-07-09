@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Header from "../../components/header/Header";
 import SkillsPage from "../Skills/SkillsPage";
 import EducationPage from "../Education/EducationPage";
 import ExperiencePage from "../Experience/ExperiencePage";

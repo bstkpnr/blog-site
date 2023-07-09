@@ -1,14 +1,7 @@
 
-/* .content {
-  display: flex; 
-  flex: 1;
-  flex-direction: column ;
-  align-items: center; 
-  justify-content: center 
-} */
 
 @font-face {
-  font-family: "PoppinsRegular";   /*Can be any text*/
+  font-family: "PoppinsRegular";  
   src: local("PoppinsRegular"),
     url("./fonts/Poppins-Regular.ttf") format("truetype");
 }
