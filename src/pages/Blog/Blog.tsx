@@ -27,7 +27,7 @@ const BlogPage: FC<PropsWithChildren<BlogProps>> = ({ blog, profile }) => {
         <div className=' card ' key={index}>
           <div className='card-image ' style={{ backgroundImage: `url(${post.thumbnail})` }}>
             <div className='authorImg'>
-              <a href={profile.profileUrl} rel='noopener noreferrer' target='_blank' style={{ backgroundImage: `url(${profile.profileImage})` }}></a>
+              <a href={profile.profileUrl} aria-label='ARIA' rel='noopener noreferrer' target='_blank' style={{ backgroundImage: `url(${profile.profileImage})` }}></a>
             </div>
           </div>
           <div className='card-body'>
