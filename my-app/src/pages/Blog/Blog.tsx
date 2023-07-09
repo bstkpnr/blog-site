@@ -43,7 +43,6 @@ const BlogPage: FC<PropsWithChildren<BlogProps>> = ({ blog, profile }) => {
 
   return (
     <div className='blogs'>
-      <h2>Yazılarım</h2>
       <div className='container-blog'>
         {blog.isLoading ? 'Loading...' : haveBlogs()}
       </div>

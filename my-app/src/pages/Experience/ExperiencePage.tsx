@@ -1,5 +1,6 @@
 import React from 'react'
 import { experience } from '../../data/data'
+import '../Experience/experience.css'
 
 const ExperiencePage:React.FC=()=> {
   return (
