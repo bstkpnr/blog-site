@@ -1,4 +1,3 @@
-import React from 'react';
 import '../header/header.css'
 import { Link } from 'react-router-dom';
 const Header = () => {
