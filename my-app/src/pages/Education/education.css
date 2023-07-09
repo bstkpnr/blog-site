@@ -1,0 +1,36 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 2em;
+  }
+  
+  .education-item {
+    margin-bottom: 1.5em;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1em;
+  }
+  
+  .education-item:last-child {
+    border-bottom: none;
+  }
+  
+  .education-item h3 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-family: PoppinsRegular;
+
+  }
+  
+  .education-item p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #666;
+    font-family: PoppinsRegular;
+
+  }
+  

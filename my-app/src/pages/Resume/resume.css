@@ -1,0 +1,37 @@
+.container-resume {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .container-resume h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #444;
+    margin: 30px 0;
+    padding: 10px 0;
+    border-bottom: 2px solid #9F2CBF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: PoppinsRegular;
+
+  }
+  
+  .container-resume h1:hover {
+    color: #9F2CBF;
+    transform: scale(1.1);
+    border-bottom: 2px solid #444;
+    font-family: PoppinsRegular;
+
+  }
+  
+  
+  .container-resume div {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .container-resume div:last-child {
+    border-bottom: none;
+  }
+  
