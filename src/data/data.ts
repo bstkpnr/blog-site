@@ -50,6 +50,12 @@ const experience = [
     department: "React-Native Developer",
     desc: "I am working on a project using React-Native and Typescript technologies using BLE (Bluetooth LowEnergy) protocol to enable industrial machines to communicate with mobile devices.",
   },
+   {
+    id: 5,
+    companyName: "Integro Health",
+    department: "React-Native Developer",
+    desc: "I develop mobile health applications using React-Native and JavaScript. I manage application state with Redux and handle data exchange between devices using Bluetooth Low Energy",
+  },
 ];
 const skill = [
   {
