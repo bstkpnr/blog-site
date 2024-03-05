@@ -33,17 +33,17 @@ const Resume: React.FC = () => {
   return (
     <>
       <div className="container-resume">
-        <h1 onClick={() => toggleSection("about")}>Hakkımda</h1>
+        <h1 onClick={() => toggleSection("about")}>About</h1>
         {openTitle.about && <About />}
-        <h1 onClick={() => toggleSection("jobs")}>Tecrübelerim</h1>
+        <h1 onClick={() => toggleSection("jobs")}>Experience</h1>
         {openTitle.jobs && <ExperiencePage />}
 
-        <h1 onClick={() => toggleSection("skill")}>Becerilerim</h1>
+        <h1 onClick={() => toggleSection("skill")}>Skills</h1>
         {openTitle.skill && <SkillsPage />}
 
-        <h1 onClick={() => toggleSection("education")}>Eğitimim</h1>
+        <h1 onClick={() => toggleSection("education")}>Education</h1>
         {openTitle.education && <EducationPage />}
-        <h1 onClick={() => toggleSection("contact")}>İletişim</h1>
+        <h1 onClick={() => toggleSection("contact")}>Contact</h1>
         {openTitle.contact && <ContactPage />}
       </div>
     </>
